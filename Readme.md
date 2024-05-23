@@ -25,13 +25,13 @@ Your project must meet these requirements:
 
 ## Running App
 
-The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We recommend using the LTS version.
+The exercise [docker](https://www.docker.com/) to be installed.
 
-1. In the repo root directory, run `yarn install` to gather all dependencies.
+1. In the repo root directory, run `make local` to run the docker containers.
 
-1. Then run `yarn start` which should start the React client at port 3000.
+1. Which should start the **React client at port 3000**.
 
-1. Then run `yarn run server` to start the server on port 4000
+1. and the **server on port 4000**
 
 ## Technical Notes
 
@@ -41,4 +41,3 @@ The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We reco
 - The server is running on port 4000.
 
 Thank you Stori! 🙏
-# stori-newsletter
