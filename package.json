@@ -1,0 +1,11 @@
+{
+  "name": "stori-newsletter",
+  "version": "1.0.0",
+  "description": "Thanks for your interest in joining Stori. At this stage, we ask you to solve the following challenge. Best of luck!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

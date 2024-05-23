@@ -1,0 +1,16 @@
+FROM node:18-alpine
+
+RUN mkdir -p /svr/app
+
+WORKDIR /svr/app
+
+COPY package.json .
+
+RUN yarn install
+
+COPY . .
+
+# Value set in .env file.
+EXPOSE $BACKEND_PORT
+
+CMD ["yarn", "run", "start:debug"]
