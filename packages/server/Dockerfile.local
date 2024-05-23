@@ -13,4 +13,4 @@ COPY . .
 # Value set in .env file.
 EXPOSE $BACKEND_PORT
 
-CMD ["yarn", "run", "start:debug"]
+CMD ["yarn", "run", "start:dev"]
